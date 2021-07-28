@@ -1,13 +1,16 @@
 /* Base CSS */
 
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    scroll-behavior: smooth;
 }
 body  {
-    font-family: 'Arial' , sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero {
@@ -19,6 +22,7 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    padding: 0 15%;
 }
 nav .mainMenu {
     display: flex;
